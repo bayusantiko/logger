@@ -1,0 +1,1 @@
+Execution time : 0s 0.1428ms Function Output : 2427.9539299335906Execution time : 0s 0.1255ms Function Output : 2427.9539299335906Execution time : 0s 0.1239ms Function Output : 2427.9539299335906

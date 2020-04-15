@@ -1,0 +1,22 @@
+{
+  "name": "logger",
+  "version": "1.0.0",
+  "description": "log runtime and write to file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bayusantiko/logger.git"
+  },
+  "keywords": [
+    "log"
+  ],
+  "author": "bayusantiko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bayusantiko/logger/issues"
+  },
+  "homepage": "https://github.com/bayusantiko/logger#readme"
+}
