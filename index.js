@@ -1,6 +1,8 @@
 const http = require('http');
-const path = require('path')
-const testfunction = require('./testfunction');
+const path = require('path');
+const calcdistance = require('@bayusantiko/calcdistancejs');
+
+//const testfunction = require('./testfunction');
 const writefile = require('./writefile');
 const hostname = '127.0.0.1';
 const port = 3000;
@@ -15,7 +17,7 @@ server.listen(port, hostname, () => {
   });
 
 var hrstart = process.hrtime();
-var result = testfunction(-6.882782,107.665369,-6.90124,107.653619)
+var result = calcdistance(-6.882782,107.665369,-6.90124,107.653619)
 var hrend = process.hrtime(hrstart);
 var runtime = "Execution time : "+ hrend[0] + "s " + hrend[1]/1000000 + "ms";
 var output = "Function Output : "+result +"\n";

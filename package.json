@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/bayusantiko/logger/issues"
   },
-  "homepage": "https://github.com/bayusantiko/logger#readme"
+  "homepage": "https://github.com/bayusantiko/logger#readme",
+  "dependencies": {
+    "@bayusantiko/calcdistancejs": "^1.0.1"
+  }
 }
